@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Paper from '@mui/material/Paper';
+import { Avatar, Grid, Typography } from '@mui/material';
+import Login from './control/login';
+import IniciarLogin from './control/iniciarlogin';
+import StandardImageList from './control/login';
+
+
 
 function App() {
+  const HeaderStyle={margin:5}
+  const paperStyle={ width:400, margin:"20px auto", padding:"20px" }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <IniciarLogin/>
+      
     </div>
   );
 }

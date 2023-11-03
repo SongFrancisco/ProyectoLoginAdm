@@ -1,5 +1,11 @@
 body {
   margin: 0;
+  background-image: url(https://i.pinimg.com/564x/64/7b/2e/647b2ea2fe64cbc4656683fcc74698f8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100px;
+  background-attachment: fixed;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +16,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+paper{
+  background-image: url(assets/image/dddd.jpg);
 }
